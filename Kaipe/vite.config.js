@@ -18,7 +18,7 @@ export default defineConfig({
       }
     }
   },
-  base: './',
+  base: './', // Define base path for production
   server: {
     historyApiFallback: true,
   },
