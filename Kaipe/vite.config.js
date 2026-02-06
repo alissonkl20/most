@@ -5,16 +5,20 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   build: {
-    outDir: 'dist', // Define o diretório de saída como 'dist'
-    emptyOutDir: true, // Limpa o diretório antes de build
-    assetsDir: 'assets', // Subdiretório para assets
+    outDir: 'dist',
+    emptyOutDir: true,
+    assetsDir: 'assets',
+    sourcemap: false,
     rollupOptions: {
       output: {
         manualChunks: void 0,
+        assetFileNames: 'assets/[name]-[hash][extname]',
+        chunkFileNames: 'assets/[name]-[hash].js',
+        entryFileNames: 'assets/[name]-[hash].js'
       }
     }
   },
-  base: '/', // Base path corrigido para aplicações SPA
+  base: './',
   server: {
     historyApiFallback: true,
   },
