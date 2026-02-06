@@ -1,4 +1,4 @@
-import minhaFoto from "/assets/lor.jpg";
+import minhaFoto from "/assets/lar.jpg";
 
 export default function About() {
   return (
@@ -20,9 +20,9 @@ export default function About() {
             
             <div>
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                Sou um desenvolvedor freelancer com mais de 2 anos de experiência em soluções tecnológicas personalizadas. 
-                Especializado em <strong>desenvolvimento de APIs REST</strong>, criação de <strong>sites profissionais e portfólios</strong>, 
-                implementação de <strong>chatbots inteligentes</strong> e <strong>automação de processos</strong> (RPA).
+                Sou um Engenheiro de Software com mais de 4 anos de experiência em soluções tecnológicas personalizadas. 
+                Especializado em <strong>desenvolvimento de aplicações web fullstack</strong>, criação de <strong>sites profissionais e portfólios</strong>, 
+                implementação de <strong>chatbots inteligentes</strong>
               </p>
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
                 Minha abordagem combina criatividade, tecnologia de ponta e foco estratégico 
@@ -33,7 +33,7 @@ export default function About() {
                 <div>
                   <h3 className="font-bold text-gray-800 mb-3 text-lg">Especialidades Técnicas:</h3>
                   <div className="flex flex-wrap gap-2">
-                    {['React', 'Spring Boot', 'Flask', 'RPA', 'QA', 'APIs REST'].map((skill) => (
+                    {['React', 'Node.js', 'JavaScript', 'TypeScript', 'Figma', 'APIs REST', 'SAAS'].map((skill) => (
                       <span 
                         key={skill}
                         className="bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-medium"

@@ -1,46 +1,47 @@
 import { useEffect } from "react";
+import { FaLaptopCode, FaRobot, FaTools, FaDatabase, FaRocket, FaFlask } from 'react-icons/fa';
 
 const services = [
   {
     id: 1,
     title: "Desenvolvimento Web Full Stack",
     description: "Criação de sites e aplicações web modernas, responsivas e otimizadas, utilizando tecnologias de ponta e práticas recomendadas do mercado.",
-    icon: "💻",
+    icon: <FaLaptopCode />,
     price: "A partir de R$ 2.000"
   },
   {
     id: 2,
     title: "Chatbot e Automação de Processos",
     description: "Implementação de chatbots inteligentes e automação de processos empresariais para aumentar a eficiência operacional e a produtividade.",
-    icon: "🤖",
+    icon: <FaRobot />,
     price: "A partir de R$ 1.500"
   },
   {
     id: 3,
     title: "Manutenção e Correção de Bugs",
     description: "Serviços especializados de suporte técnico, correção de erros, atualizações de segurança e manutenção preventiva de sistemas.",
-    icon: "🛠️",
+    icon: <FaTools />,
     price: "A partir de R$ 3.500"
   },
   {
     id: 4,
     title: "Desenvolvimento Backend",
     description: "Criação de APIs robustas, arquitetura de sistemas escaláveis, otimização de desempenho e integração com bancos de dados.",
-    icon: "📊",
+    icon: <FaDatabase />,
     price: "R$ 150/hora"
   },
   {
     id: 5,
     title: "Desenvolvimento Frontend",
     description: "Desenvolvimento de interfaces modernas e intuitivas, com foco em experiência do usuário, acessibilidade e compatibilidade entre navegadores.",
-    icon: "🚀",
+    icon: <FaRocket />,
     price: "A partir de R$ 1.000"
   },
   {
     id: 6,
     title: "Integração com Modelos de Linguagem",
     description: "Consultoria especializada em integração de modelos de linguagem, testes automatizados e melhoria contínua de processos de desenvolvimento.",
-    icon: "🧪",
+    icon: <FaFlask />,
     price: "A partir de R$ 2.500"
   }
 ]
@@ -60,7 +61,7 @@ export default function Services() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {services.map((service) => (
             <div 
               key={service.id}

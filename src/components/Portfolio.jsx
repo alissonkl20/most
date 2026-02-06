@@ -3,28 +3,28 @@ const projects = [
     id: 1,
     title: "E-commerce Fashion",
     description: "Loja virtual completa com mais de 500 produtos",
-    image: "/assets/ra.jpg",
+    image: "/assets/ps.jpg",
     tags: ["React", "Node.js", "Stripe"]
   },
   {
     id: 2,
     title: "Dashboard Analytics",
     description: "Painel administrativo com visualização de dados em tempo real",
-    image: "/assets/ru.jpg",
+    image: "/assets/ps.jpg",
     tags: ["React", "D3.js", "Firebase"]
   },
   {
     id: 3,
     title: "Landing Page SaaS",
     description: "Página de conversão para produto SaaS B2B",
-     image: "/assets/re.jpg",
+     image: "/assets/ps.jpg",
     tags: ["Next.js", "Tailwind", "Framer"]
   },
   {
     id: 4,
     title: "App Delivery",
     description: "Aplicativo de delivery com rastreamento em tempo real",
-    image: "/assets/po.jpg",
+    image: "/assets/ps.jpg",
     tags: ["React Native", "Firebase", "Maps API"]
   }
 ]
