@@ -9,5 +9,5 @@ export default defineConfig({
     emptyOutDir: true, // Limpa o diretório antes de build
     assetsDir: 'assets', // Subdiretório para assets
   },
-  base: './', // Base path para os assets
+  base: '/', // Base path corrigido para aplicações SPA
 })
