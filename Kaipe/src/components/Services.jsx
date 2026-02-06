@@ -21,7 +21,7 @@ const services = [
     title: "Manutenção e Correção de Bugs",
     description: "Serviços especializados de suporte técnico, correção de erros, atualizações de segurança e manutenção preventiva de sistemas.",
     icon: <FaTools />,
-    price: "A partir de R$ 3.500"
+    price: "A partir de R$ 1.500"
   },
   {
     id: 4,
@@ -35,14 +35,14 @@ const services = [
     title: "Desenvolvimento Frontend",
     description: "Desenvolvimento de interfaces modernas e intuitivas, com foco em experiência do usuário, acessibilidade e compatibilidade entre navegadores.",
     icon: <FaRocket />,
-    price: "A partir de R$ 1.000"
+    price: "A partir de R$ 1.500"
   },
   {
     id: 6,
     title: "Integração com Modelos de Linguagem",
     description: "Consultoria especializada em integração de modelos de linguagem, testes automatizados e melhoria contínua de processos de desenvolvimento.",
     icon: <FaFlask />,
-    price: "A partir de R$ 2.500"
+    price: "A partir de R$ 1.000"
   }
 ]
 
