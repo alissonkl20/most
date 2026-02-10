@@ -29,7 +29,7 @@ const projects = [
   }
 ]
 
-export default function Portfolio() {
+export function Portfolio() {
   return (
     <section id="portfolio" className="py-20 bg-white">
       <div className="container mx-auto px-4">

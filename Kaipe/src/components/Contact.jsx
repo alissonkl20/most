@@ -1,6 +1,6 @@
 import { FaEnvelope, FaWhatsapp } from 'react-icons/fa';
 
-export default function Contact() {
+export function Contact() {
   return (
     <section id="contact" className="py-20 bg-black">
       <div className="container mx-auto px-4">

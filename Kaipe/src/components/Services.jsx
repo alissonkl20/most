@@ -46,7 +46,7 @@ const services = [
   }
 ]
 
-export default function Services() {
+export function Services() {
   useEffect(() => {}, []); // Removida a lógica de animação de luz
 
   return (
